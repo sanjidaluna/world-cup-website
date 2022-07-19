@@ -1,0 +1,57 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* ---------------top banner style-------------- */
+.container{
+    background-color: black;
+    display: grid;
+     grid-template-columns: repeat(2,1fr);
+     justify-content: center;
+    align-items: center;
+    margin: 50px 140px;
+    padding-left: 106px;
+    padding-right: 67px; 
+}
+.top-banner{
+    
+    color: white;
+    padding: 111px 24px 111px 106px ;
+}
+.top-banner h1{
+    font-weight: 700;
+font-size: 70px;
+padding-top: 111px;
+padding-left: 106px;
+padding-bottom: 20px;
+}
+.top-banner p{
+    padding-left: 106px;
+}
+.wathing-button{
+    background-color: #DD0000;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 5px;
+    margin-left: 106px;
+   margin-right: 246px;
+  
+
+}
+.wathing-button a{
+
+    color: white;
+    text-decoration: none;
+    padding: 16px 25px;
+
+   
+}
+.banner-image img{
+
+  width: 100%;
+    padding-top: 108px;
+    
+}
