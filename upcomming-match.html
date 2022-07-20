@@ -5,159 +5,133 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
     <!-- font awesome -->
-    <!-- <script src="https://kit.fontawesome.com/1e72c40bc0.js" crossorigin="anonymous"></script> -->
-
+    <script src="https://kit.fontawesome.com/1e72c40bc0.js" crossorigin="anonymous"></script>
     <!-- stylesheet -->
     <link rel="stylesheet" href="style.css">
-
-    <!-- import font -->
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Pacifico&family=Poppins:ital,wght@0,400;0,600;1,500&family=Roboto&family=Roboto+Slab&family=Yellowtail&display=swap');
-    </style>
+    <title>World Cup</title>
 </head>
 
 <body>
+    <header>
+        <div class="banner">
+            <h1>The Greatest show on the earth</h1>
+            <p>Contrary to popular belief, Lorem Ipsum is not simply
+                random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
+                old.
+            </p>
+            <button class="live-btn">Watch Live <i class="fa-solid fa-angle-right"></i></button>
+        </div>
+        <div class="banner-image">
+            <img src="assets/banner-image.png" alt="">
+        </div>
+    </header>
+
     <main>
-
-        <!------------ header section -------------->
-        <header>
-            <section class="container">
-                <div class="top-banner">
-                    <h1>The Greatest show on the earth</h1>
-                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                        classical
-                        Latin literature
-                        from 45 BC, making it over 2000 years old.</p>
-                    <div class="watching-button">
-                        <a href="">Watch Live</a>
-                        <a href=""><i class="fa-solid fa-angle-right"></i></a>
-                    </div>
-
-                </div>
-
-                <div class="banner-image">
-                    <img src="assets/Banner Image.png" alt="">
-                </div>
-
-            </section>
-
-        </header>
-
-        <!------------ main body part ----------->
-        <section class="container2 ">
-            <div class="nav">
-              
-                <button class="upcomming-match"><a href="upcomming-match.html" class="upcomming-match">Upcoming Match</a></button>
-                <button><a href="">All Group</a></button>
-                <button><a href="index.html" >Blog</a></button>
-
-            </div>
-            <div class="countrys">
-                <div class="country">
-                    <div class="germany-vs-frence">
-                        <div><img src="assets/germany Flag.png" alt=""></div>
-                        <div>
-                            <p class="vs">VS</p>
-                        </div>
-                        <div><img src="assets/Flag.png" alt=""></div>
-
-                    </div>
-                    <p><b>Germany VS France </b></p>
-                    <p class="gray">April 01, 2023, 1.00 AM</p>
-
-                </div>
-                <div class="country">
-                    <div class="germany-vs-frence">
-                        <div><img src="assets/germany Flag.png" alt=""></div>
-                        <div>
-                            <p class="vs">VS</p>
-                        </div>
-                        <div><img src="assets/Flag.png" alt=""></div>
-
-                    </div>
-                    <p><b>Germany VS France </b></p>
-                    <p class="gray">April 01, 2023, 1.00 AM</p>
-
-                </div>
-                <div class="country">
-                    <div class="germany-vs-frence">
-                        <div><img src="assets/germany Flag.png" alt=""></div>
-                        <div>
-                            <p class="vs">VS</p>
-                        </div>
-                        <div><img src="assets/Flag.png" alt=""></div>
-
-                    </div>
-                    <p><b>Germany VS France </b></p>
-                    <p class="gray">April 01, 2023, 1.00 AM</p>
-
-                </div>
-                <div class="country">
-                    <div class="germany-vs-frence">
-                        <div><img src="assets/germany Flag.png" alt=""></div>
-                        <div>
-                            <p class="vs">VS</p>
-                        </div>
-                        <div><img src="assets/Flag.png" alt=""></div>
-
-                    </div>
-                    <p><b>Germany VS France </b></p>
-                    <p class="gray">April 01, 2023, 1.00 AM</p>
-
-                </div>
-                <div class="country">
-                    <div class="germany-vs-frence">
-                        <div><img src="assets/germany Flag.png" alt=""></div>
-                        <div>
-                            <p class="vs">VS</p>
-                        </div>
-                        <div><img src="assets/Flag.png" alt=""></div>
-
-                    </div>
-                    <p><b>Germany VS France </b></p>
-                    <p class="gray">April 01, 2023, 1.00 AM</p>
-
-                </div>
-                <div class="country">
-                    <div class="germany-vs-frence">
-                        <div><img src="assets/germany Flag.png" alt=""></div>
-                        <div>
-                            <p class="vs">VS</p>
-                        </div>
-                        <div><img src="assets/Flag.png" alt=""></div>
-
-                    </div>
-                    <p><b>Germany VS France </b></p>
-                    <p class="gray">April 01, 2023, 1.00 AM</p>
-
-                </div>
-
+        <div class="container">
+            <div class="navs">
+                <a class="active" href="upcomming-match.html">Upcoming Match</a>
+                <a href="#">All Group</a>
+                <a  href="index.html">Blog</a>
             </div>
 
-        </section>
-
+            <div class="blogs">
+                <div class="match-card">
+                    <div class="match-area">
+                        <div class="match">
+                            <img src="assets/germany-flag.png" alt="">
+                            <h2>vs</h2>
+                            <img src="assets/flag.png" alt="">
+                        </div>
+                        <div class="match-info">
+                            <h3>Germany VS France </h3>
+                            <p>April 01, 2023, 1.00 AM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="match-card">
+                    <div class="match-area">
+                        <div class="match">
+                            <img src="assets/germany-flag.png" alt="">
+                            <h2>vs</h2>
+                            <img src="assets/flag.png" alt="">
+                        </div>
+                        <div class="match-info">
+                            <h3>Germany VS France </h3>
+                            <p>April 01, 2023, 1.00 AM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="match-card">
+                    <div class="match-area">
+                        <div class="match">
+                            <img src="assets/germany-flag.png" alt="">
+                            <h2>vs</h2>
+                            <img src="assets/flag.png" alt="">
+                        </div>
+                        <div class="match-info">
+                            <h3>Germany VS France </h3>
+                            <p>April 01, 2023, 1.00 AM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="match-card">
+                    <div class="match-area">
+                        <div class="match">
+                            <img src="assets/germany-flag.png" alt="">
+                            <h2>vs</h2>
+                            <img src="assets/flag.png" alt="">
+                        </div>
+                        <div class="match-info">
+                            <h3>Germany VS France </h3>
+                            <p>April 01, 2023, 1.00 AM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="match-card">
+                    <div class="match-area">
+                        <div class="match">
+                            <img src="assets/germany-flag.png" alt="">
+                            <h2>vs</h2>
+                            <img src="assets/flag.png" alt="">
+                        </div>
+                        <div class="match-info">
+                            <h3>Germany VS France </h3>
+                            <p>April 01, 2023, 1.00 AM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="match-card">
+                    <div class="match-area">
+                        <div class="match">
+                            <img src="assets/germany-flag.png" alt="">
+                            <h2>vs</h2>
+                            <img src="assets/flag.png" alt="">
+                        </div>
+                        <div class="match-info">
+                            <h3>Germany VS France </h3>
+                            <p>April 01, 2023, 1.00 AM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
-</body>
+    <footer>
+        <div class="footer">
+            <h1>Goal</h1>
+            <div class="hr"></div>
+            <div class="links">
+                <a href="#">Contact us</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Privacy Settings</a>
+                <a href="#">Goal App</a>
+                <a href="#">Goal Live</a>
 
-<footer>
-    <p>Goal</p>
-    <hr>
-    <div class="footer-list">
-  
-
-         <button><a href="">Contact Us</a></button>
-        <button><a href="">Terms of Service</a></button>
-        <button><a href="">Privacy Policy</a></button>
-        <button><a href="">Privacy Settings</a></button>
-        <button><a href="">Goal App</a></button>
-       <button><a href="">Goal Life</a></button>
-    </div>
-</footer>
-</main>
-
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
