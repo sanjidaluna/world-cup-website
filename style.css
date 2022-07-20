@@ -1,9 +1,13 @@
-main {
+main, footer {
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    margin: 50px 140px;
+        /* max-width: 1321px;
+        margin: 0 auto;
+        border: 1px solid plum; */
+
+        margin: 50px 140px; 
 
 
 }
@@ -16,7 +20,7 @@ main {
     background-color: black;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-
+ 
     padding-left: 106px;
     padding-right: 79px;
 }
@@ -158,7 +162,7 @@ main {
 }
 
 .transfer-live img {
-    width: 382px;
+    width: 312px;
 }
 
 .icon {
@@ -177,9 +181,9 @@ country upcomming match
     width: 312px;
     border: 1px solid lightgray;
     border-radius: 10px;
-    padding: 30px 53px;
+    padding: 30px ;
     text-align: center;
-    font-size: 2opx;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -198,6 +202,7 @@ country upcomming match
 
 /* view all button style */
 .view-all{
+  
     padding: 12px 29px;
     align-items: center;
     background-color: #DD0000;
@@ -218,30 +223,135 @@ country upcomming match
        footer
   ---------------- */
 footer{
+    width: 1400px;
     background-color: black;
     height: 444px;
 }
 footer p{
     color: white;
     font-size: 40px;
-    text-align: center;
+    
     font-weight: 600;
   padding-top: 130px;
 }
 hr{
     color: #FFFFFF 10%;
-    width: 1320px;
+     width: 1320px; 
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-footer ul{
+.footer-list {
+   
     display: grid;
     grid-template-columns: repeat(6,1fr);
-    padding: 50px 260px 130px 442px;
-
-
+    /* padding: 50px 260px 130px 442px; */
+}
+.footer-list button{
+    background-color: black;
+    border: none;
 }
 footer a{
     color:  #B9B9B9;
     text-decoration: none;
+}
+
+
+/*--------- Media Queries--------- */
+@media screen and (min-width:992px){
+    .view-all{
+        display: none;
+    }
+}
+
+/* Mobile divices */
+
+@media screen and (max-width:688px) {
+    body{
+        margin-left: 130px;
+        margin-right: 120px;
+        font-size: 16px;
+        align-items: center;
+    }
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+        }
+      .top-banner h1 {
+        font-size: 40px;
+         }
+    .mini-mini{
+        width: 250px;
+        border: 2px solid blueviolet; 
+       margin-bottom: 20px;
+      }
+    .short-text{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+  
+    .banner-image img {
+        width: 40%;
+        margin-left: 33px;
+    }
+    /* .watching-button {
+        width: 161px;  
+     margin-top: 20px;
+    
+    } */
+    .container2{
+        grid-template-columns: repeat(1,1fr);
+    }
+  .nav{
+   background-color: white;
+  }
+  .nav button{
+    /* margin-left: 300px; */
+   width:250px;
+  }
+  .blogs {
+    
+    margin-right: 150px;
+    grid-template-columns: repeat(1, 1fr);
+    
+}
+.view-all{
+    display: none;
+}
+.hr{
+  
+    width: 100px;
+}
+footer{
+    width: 550px;
+    height: 600px;
+    padding-right: 100px;
+}
+
+.footer-list {
+    
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    
+}
+.footer-list button{
+    padding-bottom: 20px;
+}
+} 
+
+
+/* tablate divice */
+@media screen and (min-width:688px) and (max-width:992px) {
+    
+     .mini-mini{
+        width: 150px;
+        border: 2px solid blueviolet; 
+       margin-bottom: 20px;
+      }
+    .short-text{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+     
+
 }
